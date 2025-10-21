@@ -76,3 +76,31 @@ body {
        اگر فایل‌ها SVG هستند و می‌خواهید رنگ آن‌ها با CSS تغییر کند،
        اطلاع دهید تا راهکار SVG inline یا mask/filter پیشنهاد دهم. */
 }
+
+/* CV Download Button */
+.cv-download {
+    margin-top: 25px;
+}
+
+.download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #1e90ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.download-btn:hover {
+    background-color: #1873cc;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.download-icon {
+    font-size: 18px;
+}
