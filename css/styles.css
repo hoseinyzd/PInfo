@@ -27,16 +27,32 @@ body {
 }
 
 .social-links {
+    /* نمایش افقی و فاصله بین آیکون‌ها */
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
 }
 
 .social-links a {
-    color: #ffffff;
+    color: #ffffff; /* رنگ آیکون‌ها */
     text-decoration: none;
-    margin: 0 10px;
-    font-size: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    transition: color 0.2s ease, transform 0.12s ease;
 }
 
 .social-links a:hover {
     color: #1e90ff;
+    transform: translateY(-2px);
+}
+
+.social-icon {
+    width: 22px;
+    height: 22px;
+    display: block;
+    /* SVG داخل‌خطی از currentColor استفاده می‌کند */
 }
