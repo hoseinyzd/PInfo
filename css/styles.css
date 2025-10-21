@@ -112,3 +112,67 @@ body {
     margin: 15px auto;
     width: 80%;
 }
+
+/* Responsive Design */
+@media screen and (max-width: 480px) {
+    .card {
+        margin: 20px 15px;
+        padding: 15px;
+    }
+
+    .card h1 {
+        font-size: 20px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+
+    .social-links {
+        gap: 8px;
+    }
+
+    .social-links a {
+        width: 35px;
+        height: 35px;
+    }
+
+    .social-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .download-btn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .download-icon {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .card {
+        margin: 15px 10px;
+        padding: 12px;
+    }
+
+    .card h1 {
+        font-size: 18px;
+    }
+
+    .social-links {
+        gap: 6px;
+    }
+
+    .social-links a {
+        width: 32px;
+        height: 32px;
+    }
+
+    .social-icon {
+        width: 16px;
+        height: 16px;
+    }
+}
